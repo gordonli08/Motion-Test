@@ -1,0 +1,21 @@
+{
+  "name": "motion-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
+    "start": "tsc dist/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "Gordon Li",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "date-fns": "^3.3.1",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2"
+  }
+}
